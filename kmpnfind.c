@@ -48,8 +48,7 @@ int main() {
     char string[1000], pat[1000]; 
     printf("Enter a string: "); 
     scanf("%s", string); 
-    printf("Enter a pattern to check if it's present in the entered string: 
-"); 
+    printf("Enter a pattern to check if it's present in the entered string:"); 
     scanf("%s", pat); 
     int failure[strlen(pat)]; 
     fail(pat, failure); 

@@ -1,4 +1,4 @@
-include <stdio.h> 
+#include <stdio.h> 
 #define MAX_TERMS 101 
 typedef struct { 
     int col; 

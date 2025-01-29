@@ -41,8 +41,7 @@ int main(void) {
         scanf("%d", &pow); 
         tmp_node->pow = pow; 
         tmp_node->next = NULL; 
-        printf("\nContinue adding more terms to the polynomial list?(Y = 1/N = 
-0): "); 
+        printf("\nContinue adding more terms to the polynomial list?(Y = 1/N = 0): "); 
         scanf("%d", &flag); 
         if(flag) { 
             tmp_node->next = (my_poly *) malloc(sizeof(my_poly));  

@@ -59,8 +59,7 @@ int main() {
     treeptr root; 
     root = NULL; 
     while (1) { 
-        printf("\n1.Insert\n2.InOrder\n3.PreOrder\n4.PostOrder\n5.Search\n6.Ex
- it\n"); 
+        printf("\n1.Insert\n2.InOrder\n3.PreOrder\n4.PostOrder\n5.Search\n6.Exit\n"); 
         scanf("%d", &ch); 
         switch (ch) { 
         case 1: 
